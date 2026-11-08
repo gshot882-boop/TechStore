@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Zamonaviy Maishiy Texnika</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +998 71 123 45 67</span>
+                    <span><i class="fas fa-envelope"></i> info@techstore.uz</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <nav class="main-navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>TechStore</h1>
+                        <p>Zamonaviy Texnika</p>
+                    </div>
+                </div>
+
+                <div class="nav-menu">
+                    <a href="index2.html" class="nav-link active">Bosh Sahifa</a>
+                    <a href="about2.html" class="nav-link">Biz Haqimizda</a>
+                    <a href="products2.html" class="nav-link">Mahsulotlar</a>
+                    <a href="location2.html" class="nav-link">Manzil</a>
+                    <a href="contact2.html" class="nav-link">Aloqa</a>
+                </div>
+
+                <div class="nav-actions">
+                    <a href="wishlist2.html" class="action-icon" title="Istaklar">
+                        <i class="fas fa-heart"></i>
+                        <span class="icon-badge" id="wishlist-count">0</span>
+                    </a>
+                    <a href="cart2.html" class="action-icon" title="Savat">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="icon-badge" id="cart-count">0</span>
+                    </a>
+                    <a href="account2.html" class="action-icon" title="Hisob">
+                        <i class="fas fa-user"></i>
+                        <span class="membership-tag" id="membership-tag">Bronze</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-content">
+                    <h2 class="hero-title">Yangi Koleksiya</h2>
+                    <h1 class="hero-main-title">Zamonaviy Maishiy Texnika</h1>
+                    <p class="hero-description">Eng yaxshi narxlar va sifatli mahsulotlar</p>
+                    <a href="products2.html" class="hero-btn">Hozir Sotib Olish</a>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-placeholder">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="container">
+            <h2 class="section-heading">Kategoriyalar</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-tv"></i></div>
+                    <h3>Televizorlar</h3>
+                    <p>Smart TV va QLED</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-snowflake"></i></div>
+                    <h3>Muzlatgichlar</h3>
+                    <p>Side by Side</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-tshirt"></i></div>
+                    <h3>Kir Yuvish</h3>
+                    <p>Avtomatik</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-wind"></i></div>
+                    <h3>Konditsionerlar</h3>
+                    <p>Inverter</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-fire"></i></div>
+                    <h3>Pechlar</h3>
+                    <p>Elektr va Gaz</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-vacuum"></i></div>
+                    <h3>Changyutgichlar</h3>
+                    <p>Robot va Oddiy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-heading">Tavsiya Etilgan</h2>
+                <a href="products2.html" class="view-all-link">Barchasini Ko'rish <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="products-grid" id="featured-products">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section class="membership-section">
+        <div class="container">
+            <h2 class="section-heading">A'zolik Tizimi</h2>
+            <div class="membership-grid">
+                <div class="membership-card bronze-card">
+                    <div class="membership-header">
+                        <i class="fas fa-medal"></i>
+                        <h3>Bronze</h3>
+                    </div>
+                    <div class="membership-price">5%</div>
+                    <ul class="membership-features">
+                        <li><i class="fas fa-check"></i> 5% chegirma</li>
+                        <li><i class="fas fa-check"></i> Standart yetkazib berish</li>
+                        <li><i class="fas fa-check"></i> Asosiy qo'llab-quvvatlash</li>
+                    </ul>
+                    <button class="membership-btn" onclick="setMembership('bronze')">Tanlash</button>
+                </div>
+                <div class="membership-card silver-card">
+                    <div class="membership-header">
+                        <i class="fas fa-medal"></i>
+                        <h3>Silver</h3>
+                    </div>
+                    <div class="membership-price">10%</div>
+                    <ul class="membership-features">
+                        <li><i class="fas fa-check"></i> 10% chegirma</li>
+                        <li><i class="fas fa-check"></i> Tezkor yetkazib berish</li>
+                        <li><i class="fas fa-check"></i> 24/7 qo'llab-quvvatlash</li>
+                    </ul>
+                    <button class="membership-btn" onclick="setMembership('silver')">Tanlash</button>
+                </div>
+                <div class="membership-card gold-card featured">
+                    <div class="membership-badge">Tavsiya</div>
+                    <div class="membership-header">
+                        <i class="fas fa-medal"></i>
+                        <h3>Gold</h3>
+                    </div>
+                    <div class="membership-price">15%</div>
+                    <ul class="membership-features">
+                        <li><i class="fas fa-check"></i> 15% chegirma</li>
+                        <li><i class="fas fa-check"></i> Bepul yetkazib berish</li>
+                        <li><i class="fas fa-check"></i> VIP qo'llab-quvvatlash</li>
+                        <li><i class="fas fa-check"></i> Maxsus aksiyalar</li>
+                    </ul>
+                    <button class="membership-btn" onclick="setMembership('gold')">Tanlash</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fas fa-shipping-fast"></i></div>
+                    <h3>Tez Yetkazib Berish</h3>
+                    <p>1-2 kun ichida yetkazib beramiz</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Kafolat</h3>
+                    <p>Rasmiy kafolat bilan</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fas fa-dollar-sign"></i></div>
+                    <h3>Eng Yaxshi Narx</h3>
+                    <p>Raqobatbardosh narxlar</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                    <h3>24/7 Qo'llab-quvvatlash</h3>
+                    <p>Doimiy yordam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <h3>TechStore</h3>
+                        <p>Zamonaviy maishiy texnika do'koni</p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Havolalar</h4>
+                    <ul>
+                        <li><a href="index2.html">Bosh Sahifa</a></li>
+                        <li><a href="about2.html">Biz Haqimizda</a></li>
+                        <li><a href="products2.html">Mahsulotlar</a></li>
+                        <li><a href="contact2.html">Aloqa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Aloqa</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +998 71 123 45 67</li>
+                        <li><i class="fas fa-envelope"></i> info@techstore.uz</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Toshkent, O'zbekiston</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ijtimoiy Tarmoqlar</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechStore. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/home2.js"></script>
+</body>
+</html>

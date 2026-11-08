@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manzil - TechStore</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/pages2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="top-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +998 71 123 45 67</span>
+                    <span><i class="fas fa-envelope"></i> info@techstore.uz</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="main-navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>TechStore</h1>
+                        <p>Zamonaviy Texnika</p>
+                    </div>
+                </div>
+                <div class="nav-menu">
+                    <a href="index2.html" class="nav-link">Bosh Sahifa</a>
+                    <a href="about2.html" class="nav-link">Biz Haqimizda</a>
+                    <a href="products2.html" class="nav-link">Mahsulotlar</a>
+                    <a href="location2.html" class="nav-link active">Manzil</a>
+                    <a href="contact2.html" class="nav-link">Aloqa</a>
+                </div>
+                <div class="nav-actions">
+                    <a href="wishlist2.html" class="action-icon" title="Istaklar">
+                        <i class="fas fa-heart"></i>
+                        <span class="icon-badge" id="wishlist-count">0</span>
+                    </a>
+                    <a href="cart2.html" class="action-icon" title="Savat">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="icon-badge" id="cart-count">0</span>
+                    </a>
+                    <a href="account2.html" class="action-icon" title="Hisob">
+                        <i class="fas fa-user"></i>
+                        <span class="membership-tag" id="membership-tag">Bronze</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="page-header">
+                <h1>Bizning Manzilimiz</h1>
+                <p>Barcha filiallarimiz va manzillar</p>
+            </div>
+
+            <div class="location-wrapper">
+                <div class="location-info">
+                    <div class="location-card" onclick="showLocation2(41.2844, 69.2042, 'Asosiy Ofis')">
+                        <h3><i class="fas fa-building"></i> Asosiy Ofis</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Toshkent shahar, Chilonzor tumani, Bunyodkor ko'chasi, 123-uy</p>
+                        <p><i class="fas fa-phone"></i> +998 71 123 45 67</p>
+                        <p><i class="fas fa-envelope"></i> info@techstore.uz</p>
+                        <p><i class="fas fa-clock"></i> Dushanba - Shanba, 9:00 - 20:00</p>
+                    </div>
+                    <div class="location-card" onclick="showLocation2(41.3111, 69.2797, 'Filial 1 - Yunusobod')">
+                        <h3><i class="fas fa-store"></i> Filial 1 - Yunusobod</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Yunusobod tumani, Amir Temur ko'chasi, 45-uy</p>
+                        <p><i class="fas fa-phone"></i> +998 71 234 56 78</p>
+                    </div>
+                    <div class="location-card" onclick="showLocation2(41.2995, 69.2401, 'Filial 2 - Mirzo Ulug\'bek')">
+                        <h3><i class="fas fa-store"></i> Filial 2 - Mirzo Ulug'bek</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Mirzo Ulug'bek tumani, Navoiy ko'chasi, 78-uy</p>
+                        <p><i class="fas fa-phone"></i> +998 71 345 67 89</p>
+                    </div>
+                    <div class="location-card" onclick="showLocation2(41.2153, 69.2401, 'Filial 3 - Sergeli')">
+                        <h3><i class="fas fa-store"></i> Filial 3 - Sergeli</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Sergeli tumani, Mustaqillik ko'chasi, 12-uy</p>
+                        <p><i class="fas fa-phone"></i> +998 71 456 78 90</p>
+                    </div>
+                    <div class="location-card" onclick="showLocation2(41.2646, 69.2162, 'Filial 4 - Shayxontohur')">
+                        <h3><i class="fas fa-store"></i> Filial 4 - Shayxontohur</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Shayxontohur tumani, Navbahor ko'chasi, 34-uy</p>
+                        <p><i class="fas fa-phone"></i> +998 71 567 89 01</p>
+                    </div>
+                    <div class="location-card" onclick="showLocation2(41.3381, 69.3322, 'Filial 5 - Olmazor')">
+                        <h3><i class="fas fa-store"></i> Filial 5 - Olmazor</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Olmazor tumani, Fidokor ko'chasi, 67-uy</p>
+                        <p><i class="fas fa-phone"></i> +998 71 678 90 12</p>
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <div class="map-container">
+                        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Xarita</h3>
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <h3>TechStore</h3>
+                        <p>Zamonaviy maishiy texnika do'koni</p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Havolalar</h4>
+                    <ul>
+                        <li><a href="index2.html">Bosh Sahifa</a></li>
+                        <li><a href="about2.html">Biz Haqimizda</a></li>
+                        <li><a href="products2.html">Mahsulotlar</a></li>
+                        <li><a href="contact2.html">Aloqa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Aloqa</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +998 71 123 45 67</li>
+                        <li><i class="fas fa-envelope"></i> info@techstore.uz</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Toshkent, O'zbekiston</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ijtimoiy Tarmoqlar</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechStore. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/location2.js"></script>
+</body>
+</html>
